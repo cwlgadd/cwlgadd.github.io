@@ -38,9 +38,33 @@ features:
     - label: Available in multiple sizes
       icon: fa-fighter-jet
 rating: 3
+shop_url: https://example-shop.com/product/ABC124
+shop_icon: https://example.com/custom-button.png
 ```
 
 The text you write for the page content will be displayed as the product description. 
+
+### Buy it Button
+
+You can add a "Buy it" button to your product pages by including the following optional fields in your product's front matter:
+
+- `shop_url`: (Required) The URL to your e-shop or product purchase page
+- `shop_icon`: (Optional) HTTP link to a custom PNG image for the button
+
+If `shop_icon` is provided, the button will display your custom image. If not provided, a standard blue Bulma button with shopping cart icon and "Buy it" text will be displayed.
+
+The button is right-aligned and appears below the product features section. All links open in a new window.
+
+**Example with custom button image:**
+```yaml
+shop_url: https://example-shop.com/product/ABC124
+shop_icon: https://example.com/custom-button.png
+```
+
+**Example with standard button:**
+```yaml
+shop_url: https://example-shop.com/product/ABC124
+```
 
 [View example Product page](/bulma-clean-theme/products/product2/)
 
