@@ -65,20 +65,21 @@
                     </a>
                 {% endif %}
 
-                
-                {% for lang in site.languages %}
-                    {% if lang == site.default_lang %}
-                    <a class="navbar-item is-active" {%static_href%}href="{{ site.baseurl }}{{ page.url }}"{%endstatic_href%}>
-                        <span class="icon"><i class="fas fa-globe"></i></span>
-                        <span>{{ lang | upcase }}</span>
-                    {% else %}
-                    <a class="navbar-item" {%static_href%}href="{{ site.baseurl }}/{{ lang }}{{ page.url }}"{%endstatic_href%}>
-                        <span class="icon"><i class="fas fa-globe"></i></span>
-                        <span>{{ lang | upcase }}</span>
-                        </a>
-                    {% endif %}
-                {% endfor %}
-                
+                {% if site.languages and site.languages.size > 1 %}
+                    {% for lang in site.languages %}
+                        {% if lang == site.default_lang %}
+                        <a class="navbar-item is-active" {%static_href%}href="{{ site.baseurl }}{{ page.url }}"{%endstatic_href%}>
+                            <span class="icon"><i class="fas fa-globe"></i></span>
+                            <span>{{ lang | upcase }}</span>
+                        {% else %}
+                        <a class="navbar-item" {%static_href%}href="{{ site.baseurl }}/{{ lang }}{{ page.url }}"{%endstatic_href%}>
+                            <span class="icon"><i class="fas fa-globe"></i></span>
+                            <span>{{ lang | upcase }}</span>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                 {% endif %}
+
             </div>
         </div>
     </div>
