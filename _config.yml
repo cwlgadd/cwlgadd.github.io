@@ -92,4 +92,9 @@ social:
   tiktok: https://www.tiktok.com/
   x: https://www.x.com/
   youtube: https://www.youtube.com/
+
+languages: ["en", "de"]
+default_lang: "en"
+exclude_from_localization: ["assets/js", "assets/css"]
+parallel_localization: true
   
