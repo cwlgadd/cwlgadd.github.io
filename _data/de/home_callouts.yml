@@ -1,0 +1,12 @@
+style: is-light
+items:
+  - title: Mehrere Seitenlayouts
+    subtitle: Einschließlich Seitenleiste, Menüleiste, Tabs und Hinweise
+    icon: fa-copy
+  - title: Blog enthalten
+    subtitle: Layouts für Blog- und Beitragsseiten enthalten
+    icon: fa-mail-bulk
+  - title: Funktioniert mit GitHub Pages
+    subtitle: Schnell und einfach loslegen
+    icon: fa-github
+    icon_brand: true
