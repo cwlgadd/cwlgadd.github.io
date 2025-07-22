@@ -1,0 +1,88 @@
+- label: Getting Started
+  items:
+    - name: Installation
+      link: /docs/getting-started/installation/
+    - name: Upgrade auf v1
+      link: /docs/getting-started/upgrading-to-v1/
+    - name: Konfiguration
+      link: /docs/getting-started/configuration/
+    - name: Themen
+      link: /docs/getting-started/theming/
+    - name: Seitenleiste
+      link: /docs/getting-started/sidebar/
+    - name: Skripte
+      link: /docs/getting-started/scripts/
+
+- label: Navigation
+  items:
+    - name: Top-Navigation
+      link: /docs/navigation/top-navigation/
+    - name: Fußzeilen-Navigation
+      link: /docs/navigation/footer-navigation/
+    - name: Menüleiste
+      link: /docs/navigation/menubar/
+
+- label: Pages
+  items:
+    - name: Seite erstellen
+      link: /docs/pages/creating-a-page/
+    - name: Hero
+      link: /docs/pages/hero/
+    - name: Inhaltsverzeichnis
+      link: /docs/pages/table-of-contents/
+
+- label: Promo Pages
+  items:
+    - name: Promo-Seite erstellen
+      link: /docs/promo-pages/creating-a-promo-page/
+
+- label: Links Pages
+  items:
+    - name: Links-Seite erstellen
+      link: /docs/links-pages/creating-a-links-page/
+
+- label: Posts
+  items:
+    - name: Beitrag erstellen
+      link: /docs/posts/creating-a-post/
+    - name: Auszug & Zusammenfassung
+      link: /docs/posts/post-excerpt-summary/
+    - name: Serie
+      link: /docs/posts/post-series/
+
+- label: Page Components
+  items: 
+    - name: Hinweise
+      link: /docs/page-components/callouts/
+    - name: Cookie-Banner
+      link: /docs/page-components/cookie-banner/
+    - name: Bildergalerie
+      link: /docs/page-components/image-gallery/
+    - name: Bildmodal
+      link: /docs/page-components/image-modal/
+    - name: Benachrichtigungen
+      link: /docs/page-components/notifications/
+    - name: Präsentationen
+      link: /docs/page-components/showcases/
+    - name: Sponsoren
+      link: /docs/page-components/sponsors/
+    - name: Tabs
+      link: /docs/page-components/tabs/
+    - name: Tags
+      link: /docs/page-components/tags/
+    - name: Video
+      link: /docs/page-components/video/
+
+- label: Products
+  items:
+    - name: Produktseiten
+      link: /docs/products/product-pages/
+    - name: Produktbewertungen
+      link: /docs/products/product-reviews/
+    - name: Kategorieseite
+      link: /docs/products/category-page/
+
+- label: Recipes
+  items:
+    - name: Rezepte
+      link: /docs/recipes/recipes/
