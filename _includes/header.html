@@ -71,6 +71,7 @@
                         <a class="navbar-item is-active" {%static_href%}href="{{ site.baseurl }}{{ page.url }}"{%endstatic_href%}>
                             <span class="icon"><i class="fas fa-globe"></i></span>
                             <span>{{ lang | upcase }}</span>
+                        </a>
                         {% else %}
                         <a class="navbar-item" {%static_href%}href="{{ site.baseurl }}/{{ lang }}{{ page.url }}"{%endstatic_href%}>
                             <span class="icon"><i class="fas fa-globe"></i></span>
