@@ -1,19 +1,12 @@
-- name: Docs
-  link: /docs/
-- name: Example Pages
-  link: /#
+- name: News
+  link: /news/
+- name: Projects
+  link: 
   dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Sponsors Page
-      link: /sponsors/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-- name: Blog
-  link: /blog/
+    - name: FastEHR
+      link: /section_projects/FastEHR/
+    - name: SurvivEHR
+      link: /section_projects/SurvivEHR/
+- name: Blogs
+  link: 
+  dropdown:

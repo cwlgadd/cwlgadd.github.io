@@ -1,15 +1,13 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Charles Gadd
+email: cwlgadd@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  Personal website
+baseurl: ""
+url: "https://cwlgadd.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
@@ -67,10 +65,10 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Charles Gadd"
       layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
+      image: 
+      show_sidebar: false
 
 markdown: kramdown
 highlighter: rouge
@@ -83,3 +81,6 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+    
+head_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
