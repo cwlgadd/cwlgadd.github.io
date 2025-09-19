@@ -12,7 +12,7 @@ permalink: pretty
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
-theme: bulma-clean-theme
+# theme: bulma-clean-theme
 
 
 paginate: 5
