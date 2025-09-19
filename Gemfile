@@ -1,7 +1,15 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec
+ruby "3.3.4"
+
+gem "jekyll", "~> 4.3"
+gem "bulma-clean-theme", "~> 1.0"
+
+group :development do
+  gem "webrick", "~> 1.8"
+  gem "sass-embedded"
+end
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.6"

@@ -4,8 +4,8 @@ title: Charles Gadd
 email: cwlgadd@gmail.com
 description: >
   Personal website
-baseurl: ""
 url: "https://cwlgadd.github.io"
+baseurl: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
 #hide_share_buttons: true
