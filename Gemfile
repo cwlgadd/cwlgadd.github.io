@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-ruby "3.3.4"
+ruby "~> 3.3"           # any 3.3.x
 
 gem "jekyll", "~> 4.3"
 gem "bulma-clean-theme", "~> 1.0"
